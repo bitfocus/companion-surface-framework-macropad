@@ -1,0 +1,25 @@
+{
+	"$schema": "../node_modules/@companion-surface/base/assets/manifest.schema.json",
+	"type": "surface",
+	"id": "framework-macropad",
+	"name": "Framework Macropad",
+	"shortname": "framework-macropad",
+	"description": "",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-surface-framework-macropad.git",
+	"bugs": "https://github.com/bitfocus/companion-surface-framework-macropad/issues",
+	"maintainers": [
+		{
+			"name": "Julian Waller",
+			"email": "git@julusian.co.uk"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../dist/main.js"
+	},
+	"keywords": ["framework", "macropad"],
+	"products": ["Framework Macropad"]
+}
