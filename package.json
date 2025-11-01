@@ -1,6 +1,6 @@
 {
 	"name": "companion-surface-framework-macropad",
-	"version": "0.1.1",
+	"version": "0.1.0",
 	"main": "dist/main.js",
 	"type": "module",
 	"scripts": {
@@ -24,7 +24,7 @@
 		"yarn": "^4"
 	},
 	"dependencies": {
-		"@companion-surface/base": "~0.3.1",
+		"@companion-surface/base": "~0.4.1",
 		"node-hid": "^3.2.0"
 	},
 	"devDependencies": {
@@ -47,9 +47,5 @@
 			"yarn lint:raw --fix"
 		]
 	},
-	"packageManager": "yarn@4.10.3",
-	"resolutions": {
-		"@companion-surface/base": "portal:/home/julus/Projects/companion/companion-surface-base/packages/companion-surface-base",
-		"@companion-surface/host": "portal:/home/julus/Projects/companion/companion-surface-base/packages/companion-surface-host"
-	}
+	"packageManager": "yarn@4.10.3"
 }

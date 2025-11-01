@@ -47,13 +47,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@companion-surface/base@portal:/home/julus/Projects/companion/companion-surface-base/packages/companion-surface-base::locator=companion-surface-framework-macropad%40workspace%3A.":
-  version: 0.0.0-use.local
-  resolution: "@companion-surface/base@portal:/home/julus/Projects/companion/companion-surface-base/packages/companion-surface-base::locator=companion-surface-framework-macropad%40workspace%3A."
+"@companion-surface/base@npm:~0.4.1":
+  version: 0.4.1
+  resolution: "@companion-surface/base@npm:0.4.1"
   dependencies:
     tslib: "npm:^2.8.1"
+  checksum: 10c0/f5a41e5e9926fb7e22df68213e390b82093016e52c6fa48e683c05104b07f8dc42d4b4d09ed0bb527d48fd99d183ce71abd18f5b277a64ddce064c854e8c1369
   languageName: node
-  linkType: soft
+  linkType: hard
 
 "@discoveryjs/json-ext@npm:^0.6.1":
   version: 0.6.3
@@ -1071,7 +1072,7 @@ __metadata:
   resolution: "companion-surface-framework-macropad@workspace:."
   dependencies:
     "@companion-module/tools": "npm:2.4.2-nightly-main-20251021-232112-36bfae9"
-    "@companion-surface/base": "npm:~0.3.1"
+    "@companion-surface/base": "npm:~0.4.1"
     "@types/node": "npm:^22.18.13"
     eslint: "npm:^9.38.0"
     husky: "npm:^9.1.7"
