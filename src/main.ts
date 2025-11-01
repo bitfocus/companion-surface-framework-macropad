@@ -44,7 +44,7 @@ const FrameworkMacropadPlugin: SurfacePlugin<MacropadInfo> = {
 		return {
 			surface: new FrameworkMacropadWrapper(surfaceId, device, context),
 			registerProps: {
-				brightness: false,
+				brightness: true,
 				surfaceLayout: createSurfaceSchema(),
 				pincodeMap: null,
 				configFields: null,
