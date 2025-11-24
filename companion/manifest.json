@@ -21,5 +21,11 @@
 		"entrypoint": "../dist/main.js"
 	},
 	"keywords": ["framework", "macropad"],
-	"products": ["Framework Macropad"]
+	"products": ["Framework Macropad"],
+	"usbIds": [
+		{
+			"vendorId": 12972,
+			"productIds": [19]
+		}
+	]
 }
