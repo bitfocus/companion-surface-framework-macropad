@@ -23,7 +23,7 @@ const FrameworkMacropadPlugin: SurfacePlugin<MacropadInfo> = {
 			deviceInfo.usage === 0x61
 		) {
 			return {
-				surfaceId: `framework-macropad`, // Future: maybe some unique id, but the current hardware can only support one macropad on a system
+				surfaceId: `framework:macropad`,
 				description: `Framework Macropad`,
 				pluginInfo: {
 					path: deviceInfo.path,
